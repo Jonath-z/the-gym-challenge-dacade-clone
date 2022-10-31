@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GraphikRegular";
+  src: url("/font/GraphikRegular.otf");
+}
+
+@font-face {
+  font-family: "GraphikSemibold";
+  src: url("/font/GraphikSemibold.otf");
+}
+
+@font-face {
+  font-family: "GraphikMedium";
+  src: url("/public/font/GraphikMedium.otf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
