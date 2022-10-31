@@ -114,13 +114,13 @@ const LearningProcess = ({ onDispalayLayout }) => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center mt-40 lg:flex-row-reverse xl:justify-between lg:max-w-4xl lg:mx-auto xl:max-w-screen-2xl lg:gap-20 relative lg:pb-10">
+        <div className="flex flex-col justify-center items-center mt-40 lg:flex-row-reverse xl:justify-between lg:max-w-4xl lg:mx-auto xl:max-w-screen-2xl lg:gap-20 relative lg:pb-10 overflow-hidden">
           <img
             src="/images/nearSecondLogo.png"
             alt="near logo"
             className="w-[180px] h-[180px] lg:w-[370px] lg:h-[370px]"
           />
-          <div class="bg-developement-bg w-full h-[300px] absolute z-0 bottom-0 left-[20%] xl:left-0 xl:-ml-64 xl:-z-10 hidden blur-2xl opacity-30 lg:block" />
+          <div class="bg-developement-bg w-full h-[300px] absolute z-0 bottom-0 xl:left-0  xl:-z-10 xl:-mb-32 hidden blur-2xl opacity-30 lg:block" />
           <div className="flex flex-col items-center xl:items-start">
             <h1 className="text-primary font-primary font-semibold text-2xl lg:text-4xl leading-[44px] tracking-[-0.02em]">
               NEAR Development <br className="hidden lg:block xl:hidden" /> 101
